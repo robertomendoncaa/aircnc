@@ -1,0 +1,9 @@
+{
+  "name": "backend-aircnc",
+  "version": "1.0.0",
+  "description": "Backend app Aircnc OmniStack Week 9",
+  "main": "index.js",
+  "repository": "git@github.com:robertomendoncaa/aircnc.git",
+  "author": "Roberto Mendonça",
+  "license": "MIT"
+}
