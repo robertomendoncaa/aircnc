@@ -3,15 +3,15 @@ Projeto desenvolvido durante a semana OmniStack da [Rocketseat](https://rocketse
 
 ## Instalação
 ### Backend/API
-Clone este repositório e instale as dependências dentro da pasta ```aircnc/backend```
+Clone este repositório e instale as dependências dentro da pasta `aircnc/backend`
 ```sh
-$ git clone https://github.com/robertomendoncaa/aircnc.git
-$ cd aircnc/backend
-$ yarn
+git clone https://github.com/robertomendoncaa/aircnc.git
+cd aircnc/backend
+yarn
 # ou
-$ npm install
+npm install
 ```
-- Renomear arquivo ```.env.example``` para ```.env```
+- Renomear arquivo `.env.example` para `.env`
 - Incluir em ```MONGO_URL``` sua URL para configuração do banco de dados **MongoDB**
 #### Rodar Backend/API
 ```
