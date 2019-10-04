@@ -1,4 +1,4 @@
-# Aircnc - Air Code And Coffee💻☕️
+# Aircnc - Air Code and Coffee💻☕️
 Projeto desenvolvido durante a semana OmniStack da [Rocketseat](https://rocketseat.com.br/week-9/aulas). Aplicação fullstack que permite realizar a reserva de Spots para empresas e desenvolvedores.
 
 ## Instalação
@@ -17,5 +17,17 @@ npm install
 ```
 yarn dev
 ```
+> Lembre-se de deixar rodando o backend...
 ### Frontend
-Em breve...
+Instale as dependências dentro da pasta `aircnc/frontend`
+> Em um novo terminal execute os comandos:
+```sh
+cd frontend
+yarn
+# ou
+npm install
+```
+### Rodar Frontend
+```
+yarn start
+```
