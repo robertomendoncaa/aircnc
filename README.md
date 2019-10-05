@@ -1,6 +1,5 @@
-<img src="mobile/src/assets/logo.png" alt="Aircnc" width="200" height="100" />
+<h1 align="center"><br><img src="mobile/src/assets/logo.svg" alt="Aircnc" width="100"><br><br>Aircnc - Air Code and Coffee💻☕️</h1>
 
-# Aircnc - Air Code and Coffee💻☕️
 Projeto desenvolvido durante a semana OmniStack da [Rocketseat](https://rocketseat.com.br/week-9/aulas). Aplicação fullstack que permite realizar a reserva de Spots para empresas e desenvolvedores, em tempo real utilizando **socket.io**.
 
 ## Instalação
