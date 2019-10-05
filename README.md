@@ -31,3 +31,13 @@ npm install
 ```
 yarn start
 ```
+### App Mobile
+O jeito mais fácil de rodar esse aplicativo no **Android** é utilizando o [Expo](https://expo.io/).
+Primeiro instale o `expo-cli` de forma global em sua máquina. 
+Dentro da pasta `aircnc/mobile` instale as dependências do app, em seguida execute o app.
+```
+npm install -g expo-cli
+yarn
+yarn start
+``` 
+Ao abrir uma aba em seu navegador com o **QRCode**, baixe o aplicativo do **Expo** em sua [play store](https://play.google.com/store/apps/details?id=host.exp.exponent) e faça Scan do QRCode gerado em seu celular.
