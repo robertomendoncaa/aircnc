@@ -11,8 +11,8 @@ yarn
 # ou
 npm install
 ```
-- Renomear arquivo `.env.example` para `.env`
-- Incluir em ```MONGO_URL``` sua URL para configuração do banco de dados **MongoDB**
+- No arquivo `config/database` incluir em `DB_URL` sua URL de conexão com o banco de dados **MongoDB**
+- No arquivo `config/localhost` incluir em `LOCALHOST` seu localhost ou IP da máquina caso utilize dispositivo físico
 ### Rodar Backend/API
 ```
 yarn dev
@@ -32,7 +32,7 @@ npm install
 yarn start
 ```
 ### App Mobile
-O jeito mais fácil de rodar esse aplicativo no **Android** é utilizando o [Expo](https://expo.io/).
+O modo mais fácil de rodar esse aplicativo no **Android** é utilizando o [Expo](https://expo.io/).
 Primeiro instale o `expo-cli` de forma global em sua máquina. 
 Dentro da pasta `aircnc/mobile` instale as dependências do app, em seguida execute o app.
 ```
@@ -40,4 +40,6 @@ npm install -g expo-cli
 yarn
 yarn start
 ``` 
-Ao abrir uma aba em seu navegador com o **QRCode**, baixe o aplicativo do **Expo** em sua [play store](https://play.google.com/store/apps/details?id=host.exp.exponent) e faça Scan do QRCode gerado em seu celular.
+Ao abrir uma aba em seu navegador do **Expo DevTools** com o **QRCode**, baixe o aplicativo do **Expo** em sua [play store](https://play.google.com/store/apps/details?id=host.exp.exponent) e faça o Scan do QRCode em seu celular.
+
+- No arquivo `config/localhost` incluir em `LOCALHOST` a mesma configuração do Backend.
