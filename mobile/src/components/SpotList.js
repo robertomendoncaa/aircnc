@@ -54,13 +54,13 @@ function SpotList({ tech, navigation }) {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 20,
+    marginBottom: 20,
   },
 
   title: {
     fontSize: 20,
     color: '#444',
-    paddingHorizontal: 20,
+    paddingHorizontal: 10,
     marginBottom: 15,
   },
 
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
   },
 
   list: {
-    paddingHorizontal: 20,
+    paddingHorizontal: 10,
   },
 
   listItem: {
