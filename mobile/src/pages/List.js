@@ -31,7 +31,8 @@ export default function List({ navigation }) {
   }, []);
 
   function handleLogout() {
-    AsyncStorage.removeItem('user');
+    // AsyncStorage.removeItem('user');
+    AsyncStorage.clear();
     alert('Você foi desconectado!');
 
     navigation.navigate('Login');
